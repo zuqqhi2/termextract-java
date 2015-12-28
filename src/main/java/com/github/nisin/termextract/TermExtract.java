@@ -8,10 +8,15 @@ import com.google.common.base.*;
 import com.google.common.collect.*;
 import org.atilika.kuromoji.Token;
 import org.atilika.kuromoji.Tokenizer;
-import sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader;
 
 import java.text.Normalizer;
-import java.util.*;
+import java.util.Deque;
+import java.util.Map;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.SortedSet;
+import java.util.Collection;
 import java.util.regex.Pattern;
 
 /**
